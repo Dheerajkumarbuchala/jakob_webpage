@@ -1,24 +1,14 @@
 ---
-name: Prof. Jakob Eriksson
-title: Recent Rust enthusiast
+name: Dheeraj Kumar Buchala
+title: Cloud & AI enthusiast
 ---
 
 # Some Current Research Projects
 
-Below is a sampling of current research projects we are pursuing in my group. I am always open to exploring new ideas, so if you have something you are passionate about, and which you think I can advise you effectively on, then by all means get in touch!
-
-# Compound Processes
-_with Nilanjana Basu_ 
-Modern computer software commonly consists of groups of individual programs working together toward the same goal. This *common purpose* model is not reflected in the way the software actually executes today. Instead, each program runs in carefully guarded isolation, communicating via secure system calls. This project introduces a new concept, a “compound process” which better reflects the realities of modern software. A compound process may host several “guest” programs in a single trust domain, eliminating expensive and often redundant safeguards between components of a single software stack, to yield substantial performance benefits. 
-
-# Efficient Multi-Threading with Trust<T> 
-_with Ben Baenen_
-
-Trust<T> is a Rust-based message-passing framework which aims to replace locking and shared objects with a particularly efficient form of message passing. 
-With Trust<T>, a shared object is _entrusted_ to a single core, which is responsible for all accesses to this object. 
-This ensures race-freedom on the object, eliminates lock contention, and dramatically constrains opportunities for false sharing, often resulting in dramatically higher performance. 
-
-# Rackwide Computing
-_with Noaman Ahmad_
-
-Building on Trust<T> and its elimination of shared memory computing, Rackwide Computing is the idea that we can program against an entire rack of computers as if it was a single one. With Rackwide computing, we use Trust<T> delegation over RDMA to create a programming framework that seamlessly scales programs to run across multiple machines. In essence, a single _process_ may span an entire rack, allowing (mostly) normal programs to scale to thousands of cores, without the complexities and inefficiencies of cluster computing. 
+Currently I am working on Multi-Agent Systems.<br>
+I have worked on Coalition Structure Generation. I have submitted a thesis on "Algorithms for Coaliton Structure Generation". The main concentration in the 
+dissertation is on the “Heuristic Methods for Optimal Coalition Structure 
+Generation developed by Amir & Shaheen”.
+We have developed a parallel heuristic method using multi-threading and the results were quite promising.
+<br>
+Our research paper “P-TACOS: A Parallel Tabu Search Algorithm for Coalition Structure Generation”, developed based on my thesis has been accepted in short format for publication in the WI-IAT 2023 proceedings and for oral presentation at the conference.
